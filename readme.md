@@ -160,3 +160,5 @@ One new untracked files
 
 10. check on github--does your books.md file now contain the image?
 
+![Save the whales!](images/orca_whale.jpeg)
+
