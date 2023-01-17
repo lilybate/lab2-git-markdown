@@ -24,6 +24,8 @@ tasks are comparable.  Here are the tasks:
    Write the command you
    used underneath in a code block.
    
+   git clone https://github.com/lilybate/lab2-git-markdown.git
+   
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
    convenient.
@@ -38,12 +40,30 @@ tasks are comparable.  Here are the tasks:
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
    
+   "On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        books.Rmd
+
+no changes added to commit (use "git add" and/or "git commit -a")"
+   
    Explain, in plain text, what does it mean.
+   
+   This means that I am on the main branch of the Lab2 file, I have one tracked/previously commited folder, read.me, and one new uncommited folder, books.Rmd
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+
+git add books.rmd 
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
